@@ -71,7 +71,7 @@ function Contact() {
           </p>
 
           <div className="pic">
-            <img src="src/assets/image/mooncontact.jpg"/>
+            <img src="/images/mooncontact.jpg"/>
           </div>
 
         </div>

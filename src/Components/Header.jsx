@@ -6,7 +6,7 @@ function Header() {
 
       <div className="logo">
         <img
-          src="src/assets/image/cafe logo.png"
+          src="/images/cafe logo.png"
           alt="VS Moon Cafe Logo"
         />
       </div>
