@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Menu from "./pages/Menu";
-import Membership from "./pages/Membership";
-import Booking from "./pages/Booking";
-import Contact from "./pages/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Menu from "./Pages/Menu";
+import Membership from "./Pages/Membership";
+import Booking from "./Pages/Booking";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
