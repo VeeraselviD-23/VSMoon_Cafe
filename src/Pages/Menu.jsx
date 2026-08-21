@@ -13,22 +13,22 @@ function Menu() {
                 {
                     name: "Moon Cappuccino",
                     price: 180,
-                    image: "src/assets/image/cappuccino.png"
+                    image: "/images/cappuccino.png"
                 },
                 {
                     name: "Caramel Latte",
                     price: 200,
-                    image: "src/assets/image/caramel.latte.jpg"
+                    image: "/images/caramel.latte.jpg"
                 },
                 {
                     name: "Chocolate Mocha",
                     price: 220,
-                    image: "src/assets/image/chocolatemocha.jpg"
+                    image: "/images/chocolatemocha.jpg"
                 },
                 {
                     name: "Vanilla Cold Coffee",
                     price: 190,
-                    image: "src/assets/image/vennila cold coffee.jpg"
+                    image: "/images/vennila cold coffee.jpg"
                 }
             ]
         },
@@ -39,22 +39,22 @@ function Menu() {
                 {
                     name: "Classic Bubble Tea",
                     price: 180,
-                    image: "src/assets/image/boba-milk-tea-featured-image.jpg"
+                    image: "/images/boba-milk-tea-featured-image.jpg"
                 },
                 {
                     name: "Strawberry Bubble Tea",
                     price: 200,
-                    image: "src/assets/image/strawberrybubbletea.png"
+                    image: "/images/strawberrybubbletea.png"
                 },
                 {
                     name: "Brown Sugar Milk Tea",
                     price: 220,
-                    image: "src/assets/image/brown-sugar-bubble-tea.jpg"
+                    image: "/images/brown-sugar-bubble-tea.jpg"
                 },
                 {
                     name: "Taro Bubble Tea",
                     price: 200,
-                    image: "src/assets/image/taro-milk-tea-boba.webp"
+                    image: "/images/taro-milk-tea-boba.webp"
                 }
             ]
         },
@@ -65,22 +65,22 @@ function Menu() {
                 {
                     name: "Fresh Orange Juice",
                     price: 120,
-                    image: "src/assets/image/orange_2.jpg"
+                    image: "/images/orange_2.jpg"
                 },
                 {
                     name: "Watermelon Juice",
                     price: 100,
-                    image: "src/assets/image/watermelon.jpg"
+                    image: "/images/watermelon.jpg"
                 },
                 {
                     name: "Mango Juice",
                     price: 140,
-                    image: "src/assets/image/AMAZING-MANGO-JUICE.jpg"
+                    image: "/images/AMAZING-MANGO-JUICE.jpg"
                 },
                 {
                     name: "Mixed Fruit Juice",
                     price: 160,
-                    image: "src/assets/image/fruitmixer.webp"
+                    image: "/images/fruitmixer.webp"
                 }
             ]
         },
@@ -91,22 +91,22 @@ function Menu() {
                 {
                     name: "Blue Lagoon",
                     price: 180,
-                    image: "src/assets/image/blue lagoon.jpg"
+                    image: "/images/blue lagoon.jpg"
                 },
                 {
                     name: "Strawberry Mojito",
                     price: 190,
-                    image: "src/assets/image/mojitostrawberry.jpg"
+                    image: "/images/mojitostrawberry.jpg"
                 },
                 {
                     name: "Virgin Pina Colada",
                     price: 220,
-                    image: "src/assets/image/Virgin-Pina-Colada.png"
+                    image: "/images/Virgin-Pina-Colada.png"
                 },
                 {
                     name: "Green Apple Mojito",
                     price: 180,
-                    image: "src/assets/image/greenapple.webp"
+                    image: "/images/greenapple.webp"
                 }
             ]
         },
@@ -117,22 +117,22 @@ function Menu() {
                 {
                     name: "Moon Special Ice Cream",
                     price: 180,
-                    image: "src/assets/image/moonspecialicecream.webp"
+                    image: "/images/moonspecialicecream.webp"
                 },
                 {
                     name: "Chocolate Brownie Ice Cream",
                     price: 220,
-                    image: "src/assets/image/chocolatebrownie.jpg"
+                    image: "/images/chocolatebrownie.jpg"
                 },
                 {
                     name: "Strawberry Dream",
                     price: 190,
-                    image: "src/assets/image/icesrawberry.jpg"
+                    image: "/images/icesrawberry.jpg"
                 },
                 {
                     name: "Cookie & Cream",
                     price: 200,
-                    image: "src/assets/image/Cookies-And-Cream-Ice-Cream.webp"
+                    image: "/images/Cookies-And-Cream-Ice-Cream.webp"
                 }
             ]
         },
@@ -143,22 +143,22 @@ function Menu() {
                 {
                     name: "Chocolate Cake",
                     price: 180,
-                    image: "src/assets/image/Chocolate-Cake-with-Cream-Filling-3-1-1.webp"
+                    image: "/images/Chocolate-Cake-with-Cream-Filling-3-1-1.webp"
                 },
                 {
                     name: "Red Velvet Cake",
                     price: 200,
-                    image: "src/assets/image/14REDVELVET-superJumbo-v4.jpg"
+                    image: "/images/14REDVELVET-superJumbo-v4.jpg"
                 },
                 {
                     name: "Cheesecake",
                     price: 220,
-                    image: "src/assets/image/cheesecake-recipe-6.jpg"
+                    image: "/images/cheesecake-recipe-6.jpg"
                 },
                 {
                     name: "Choco Lava Cake",
                     price: 190,
-                    image: "src/assets/image/Chocolate-Lava-Cake.webp"
+                    image: "/images/Chocolate-Lava-Cake.webp"
                 }
             ]
         },
@@ -169,22 +169,22 @@ function Menu() {
                 {
                     name: "Korean Fried Chicken",
                     price: 320,
-                    image: "src/assets/image/k friedchick.jpg"
+                    image: "/images/k friedchick.jpg"
                 },
                 {
                     name: "Tteokbokki",
                     price: 280,
-                    image: "src/assets/image/Tteokbokki.jpg"
+                    image: "/images/Tteokbokki.jpg"
                 },
                 {
                     name: "Korean Noodles",
                     price: 260,
-                    image: "src/assets/image/Korean Spicy Noodles.webp"
+                    image: "/images/Korean Spicy Noodles.webp"
                 },
                 {
                     name: "Kimchi Fried Rice",
                     price: 280,
-                    image: "src/assets/image/🍳 Kimchi Fried Rice.jpg"
+                    image: "/images/🍳 Kimchi Fried Rice.jpg"
                 }
             ]
         },
@@ -195,22 +195,22 @@ function Menu() {
                 {
                     name: "Chicken Fried Rice",
                     price: 250,
-                    image: "src/assets/image/chickenfriedrice2.jpg"
+                    image: "/images/chickenfriedrice2.jpg"
                 },
                 {
                     name: "Schezwan Noodles",
                     price: 240,
-                    image: "src/assets/image/scezwannoodles.webp"
+                    image: "/images/scezwannoodles.webp"
                 },
                 {
                     name: "Chilli Chicken",
                     price: 200,
-                    image: "src/assets/image/chillichicken.jpg"
+                    image: "/images/chillichicken.jpg"
                 },
                 {
                     name: "Veg Manchurian",
                     price: 220,
-                    image: "src/assets/image/vegmanchurian.avif"
+                    image: "/images/vegmanchurian.avif"
                 }
             ]
         }

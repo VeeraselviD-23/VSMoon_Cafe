@@ -78,7 +78,7 @@ function Home() {
           <div className="carousel-item active">
 
             <img
-              src="src/assets/image/vsmooncafe.png"
+              src="/images/vsmooncafe.png"
               className="d-block w-100 slider-img"
               alt="VS Moon Cafe"
             />
@@ -96,7 +96,7 @@ function Home() {
           <div className="carousel-item">
 
             <img
-              src="src/assets/image/balcony.png"
+              src="/images/balcony.png"
               className="d-block w-100 slider-img"
               alt="Cafe Balcony"
             />
@@ -114,7 +114,7 @@ function Home() {
           <div className="carousel-item">
 
             <img
-              src="src/assets/image/Dalton-Farms-tulip-rainbow-CR-CLIFF-BECKETT.jpeg"
+              src="/images/Dalton-Farms-tulip-rainbow-CR-CLIFF-BECKETT.jpeg"
               className="d-block w-100 slider-img"
               alt="Tulip Garden"
             />
@@ -132,7 +132,7 @@ function Home() {
           <div className="carousel-item">
 
             <img
-              src="src/assets/image/mooncafe.morning.jpeg"
+              src="/images/mooncafe.morning.jpeg"
               className="d-block w-100 slider-img"
               alt="Moon Cafe Morning"
             />

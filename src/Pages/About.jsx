@@ -28,7 +28,7 @@ function About() {
       <br/><br/>
 
       <div className="good">
-      <img src="src/assets/image/MoonCafepicture.webp"/>
+      <img src="/images/MoonCafepicture.webp"/>
       </div>
       <br/>
       <hr/>
