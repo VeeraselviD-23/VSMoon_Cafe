@@ -6,11 +6,9 @@
 
 body {
     font-family: "Times New Roman", serif;
-    background: linear-gradient(135deg, #000428, #2b063d, #4b164c);
+    background: linear-gradient(135deg, #6d068d, #660d81, #610d7a);
     color: white;
 }
-
-/* Header */
 
 .header {
     text-align: center;
@@ -20,28 +18,26 @@ body {
 
 .logo {
     position: absolute;
-    left: 40px;
-    top: 20px;
+    left: 80px;
+    top: -30px;
+    bottom: 10px;
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 220px;
 }
 
 .cafe-name h1 {
-    color: #f5d0fe;
-    font-size: 42px;
-    text-shadow: 0 0 15px #d946ef;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 5px 15px #d946ef;
 }
 
 .cafe-name p {
     color: #f9a8d4;
-    font-size: 18px;
+    font-size: 20px;
 }
-
-
-/* Navbar */
 
 .navbar {
     display: flex;
@@ -63,9 +59,6 @@ body {
     transform: translateY(-3px);
 }
 
-
-/* Hero */
-
 .hero {
     text-align: center;
     padding: 70px 20px;
@@ -73,8 +66,7 @@ body {
 
 .hero h1 {
     font-size: 50px;
-    color: #f5d0fe;
-    text-shadow: 0 0 15px #d946ef;
+    color: white
 }
 
 .hero h2 {
@@ -87,9 +79,6 @@ body {
     margin: 20px auto;
     line-height: 1.8;
 }
-
-
-/* Button */
 
 .button {
     display: inline-block;
@@ -106,9 +95,6 @@ body {
     transform: scale(1.05);
 }
 
-
-/* Carousel */
-
 .slider-img {
     height: 500px;
     object-fit: cover;
@@ -119,9 +105,6 @@ body {
     padding: 10px;
     border-radius: 20px;
 }
-
-
-/* Common Sections */
 
 section {
     padding: 60px 8%;
@@ -139,8 +122,9 @@ section h2 {
     line-height: 1.8;
 }
 
-
-/* Cards */
+.data{
+    font-size: 45px;
+}
 
 .cards {
     display: grid;
@@ -173,21 +157,12 @@ section h2 {
     color: white;
 }
 
-/* ================================
-   MENU PAGE
-================================ */
-
 .menu-page {
     min-height: 100vh;
     padding: 40px 6%;
-    background: linear-gradient(135deg, #090014, #1b0633, #35004f);
+    background: linear-gradient(135deg, #6d068d, #660d81, #610d7a);
     color: white;
 }
-
-
-/* ================================
-   MENU HEADER
-================================ */
 
 .menu-header {
     text-align: center;
@@ -195,12 +170,12 @@ section h2 {
 }
 
 .menu-header h1 {
-    font-size: 38px;
+    font-size: 45px;
     margin-bottom: 8px;
 }
 
-.menu-header h2 {
-    font-size: 30px;
+.menu-header h3 {
+    font-size: 25px;
     margin: 5px;
     color: #e7b8ff;
 }
@@ -209,11 +184,6 @@ section h2 {
     color: #ddd;
     margin: 8px;
 }
-
-
-/* ================================
-   CART BUTTON
-================================ */
 
 .cart-button-container {
     text-align: right;
@@ -236,21 +206,11 @@ section h2 {
     transform: translateY(-2px);
 }
 
-
-/* ================================
-   MENU GRID
-================================ */
-
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
-
-/* ================================
-   MENU CARD
-================================ */
 
 .menu-card {
     background: rgba(255, 255, 255, 0.08);
@@ -270,11 +230,6 @@ section h2 {
     font-size: 23px;
 }
 
-
-/* ================================
-   MENU ITEMS
-================================ */
-
 .menu-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -293,22 +248,12 @@ section h2 {
     box-shadow: 0 8px 20px rgba(180, 90, 255, 0.25);
 }
 
-
-/* ================================
-   FOOD IMAGE
-================================ */
-
 .menu-image {
     width: 100%;
     height: 150px;
     object-fit: cover;
     display: block;
 }
-
-
-/* ================================
-   FOOD DETAILS
-================================ */
 
 .food-details {
     padding: 12px;
@@ -328,11 +273,6 @@ section h2 {
     font-weight: bold;
     margin: 5px 0 10px;
 }
-
-
-/* ================================
-   ADD TO CART
-================================ */
 
 .add-cart-btn {
     width: 100%;
@@ -355,11 +295,6 @@ section h2 {
     transform: scale(1.03);
 }
 
-
-/* ================================
-   CART OVERLAY
-================================ */
-
 .cart-overlay {
     position: fixed;
     inset: 0;
@@ -372,11 +307,6 @@ section h2 {
 
     z-index: 9999;
 }
-
-
-/* ================================
-   CART BOX
-================================ */
 
 .cart-box {
     width: 90%;
@@ -395,11 +325,6 @@ section h2 {
 
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
 }
-
-
-/* ================================
-   CART HEADER
-================================ */
 
 .cart-header {
     display: flex;
@@ -432,11 +357,6 @@ section h2 {
 .close-cart:hover {
     background: #ff6657;
 }
-
-
-/* ================================
-   CART ITEM
-================================ */
 
 .cart-item {
     display: grid;
@@ -471,11 +391,6 @@ section h2 {
     color: #d7a5f0;
 }
 
-
-/* ================================
-   QUANTITY
-================================ */
-
 .quantity {
     display: flex;
     align-items: center;
@@ -506,11 +421,6 @@ section h2 {
     font-weight: bold;
 }
 
-
-/* ================================
-   REMOVE BUTTON
-================================ */
-
 .remove-btn {
     border: none;
     background: transparent;
@@ -526,11 +436,6 @@ section h2 {
     transform: scale(1.2);
 }
 
-
-/* ================================
-   CART TOTAL
-================================ */
-
 .cart-total {
     text-align: right;
 
@@ -541,11 +446,6 @@ section h2 {
 .cart-total h2 {
     color: #e5b4ff;
 }
-
-
-/* ================================
-   ORDER BUTTON
-================================ */
 
 .order-btn {
     width: 100%;
@@ -571,11 +471,6 @@ section h2 {
     transform: translateY(-2px);
 }
 
-
-/* ================================
-   EMPTY CART
-================================ */
-
 .empty-cart {
     text-align: center;
     padding: 50px 20px;
@@ -589,11 +484,6 @@ section h2 {
     color: #bbb;
 }
 
-
-/* ================================
-   FOOTER
-================================ */
-
 .menu-footer {
     text-align: center;
     margin-top: 50px;
@@ -602,17 +492,14 @@ section h2 {
 
 .menu-footer h2 {
     color: #e8c4ff;
-    font-size: 22px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .menu-footer p {
     color: #ccc;
+    font-size: 20px;
 }
-
-
-/* ================================
-   RESPONSIVE
-================================ */
 
 @media (max-width: 900px) {
 
@@ -621,7 +508,6 @@ section h2 {
     }
 
 }
-
 
 @media (max-width: 600px) {
 
@@ -661,7 +547,6 @@ section h2 {
     }
 
 }
-/* Forms */
 
 .cafe-form {
     max-width: 550px;
@@ -685,9 +570,6 @@ section h2 {
     color: white;
 }
 
-
-/* Contact */
-
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -700,8 +582,10 @@ section h2 {
     background: rgba(255, 255, 255, 0.08);
 }
 
-
-/* Info Box */
+.pic img{
+    width:500px;
+    height:400px;
+}
 
 .info-box {
     max-width: 900px;
@@ -709,9 +593,6 @@ section h2 {
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.08);
 }
-
-
-/* Footer */
 
 footer {
     background: #090014;
@@ -738,9 +619,6 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-
-
-/* Mobile */
 
 @media (max-width: 700px) {
 

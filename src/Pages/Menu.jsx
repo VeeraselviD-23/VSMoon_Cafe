@@ -8,7 +8,7 @@ function Menu() {
     const menuCategories = [
 
         {
-            title: "☕ Signature Coffee",
+            title: "Signature Coffee",
             items: [
                 {
                     name: "Moon Cappuccino",
@@ -28,197 +28,195 @@ function Menu() {
                 {
                     name: "Vanilla Cold Coffee",
                     price: 190,
-                    image: "/images/vanilla-cold-coffee.jpg"
+                    image: "src/assets/image/vennila cold coffee.jpg"
                 }
             ]
         },
 
         {
-            title: "🧋 Bubble Tea",
+            title: "Bubble Tea",
             items: [
                 {
                     name: "Classic Bubble Tea",
                     price: 180,
-                    image: "/images/classic-bubble-tea.jpg"
+                    image: "src/assets/image/boba-milk-tea-featured-image.jpg"
                 },
                 {
                     name: "Strawberry Bubble Tea",
                     price: 200,
-                    image: "/images/strawberry-bubble-tea.jpg"
+                    image: "src/assets/image/strawberrybubbletea.png"
                 },
                 {
                     name: "Brown Sugar Milk Tea",
                     price: 220,
-                    image: "/images/brown-sugar-milk-tea.jpg"
+                    image: "src/assets/image/brown-sugar-bubble-tea.jpg"
                 },
                 {
                     name: "Taro Bubble Tea",
                     price: 200,
-                    image: "/images/taro-bubble-tea.jpg"
+                    image: "src/assets/image/taro-milk-tea-boba.webp"
                 }
             ]
         },
 
         {
-            title: "🍹 Fresh Juices",
+            title: "Fresh Juices",
             items: [
                 {
                     name: "Fresh Orange Juice",
                     price: 120,
-                    image: "/images/orange-juice.jpg"
+                    image: "src/assets/image/orange_2.jpg"
                 },
                 {
                     name: "Watermelon Juice",
                     price: 100,
-                    image: "/images/watermelon-juice.jpg"
+                    image: "src/assets/image/watermelon.jpg"
                 },
                 {
                     name: "Mango Juice",
                     price: 140,
-                    image: "/images/mango-juice.jpg"
+                    image: "src/assets/image/AMAZING-MANGO-JUICE.jpg"
                 },
                 {
                     name: "Mixed Fruit Juice",
                     price: 160,
-                    image: "/images/mixed-fruit-juice.jpg"
+                    image: "src/assets/image/fruitmixer.webp"
                 }
             ]
         },
 
         {
-            title: "🍸 Mocktails",
+            title: "Mocktails",
             items: [
                 {
                     name: "Blue Lagoon",
                     price: 180,
-                    image: "/images/blue-lagoon.jpg"
+                    image: "src/assets/image/blue lagoon.jpg"
                 },
                 {
                     name: "Strawberry Mojito",
                     price: 190,
-                    image: "/images/strawberry-mojito.jpg"
+                    image: "src/assets/image/mojitostrawberry.jpg"
                 },
                 {
                     name: "Virgin Pina Colada",
                     price: 220,
-                    image: "/images/pina-colada.jpg"
+                    image: "src/assets/image/Virgin-Pina-Colada.png"
                 },
                 {
                     name: "Green Apple Mojito",
                     price: 180,
-                    image: "/images/green-apple-mojito.jpg"
+                    image: "src/assets/image/greenapple.webp"
                 }
             ]
         },
 
         {
-            title: "🍨 Ice Cream Specials",
+            title: "Ice Cream Specials",
             items: [
                 {
                     name: "Moon Special Ice Cream",
                     price: 180,
-                    image: "/images/moon-ice-cream.jpg"
+                    image: "src/assets/image/moonspecialicecream.webp"
                 },
                 {
                     name: "Chocolate Brownie Ice Cream",
                     price: 220,
-                    image: "/images/brownie-ice-cream.jpg"
+                    image: "src/assets/image/chocolatebrownie.jpg"
                 },
                 {
                     name: "Strawberry Dream",
                     price: 190,
-                    image: "/images/strawberry-ice-cream.jpg"
+                    image: "src/assets/image/icesrawberry.jpg"
                 },
                 {
                     name: "Cookie & Cream",
                     price: 200,
-                    image: "/images/cookie-cream.jpg"
+                    image: "src/assets/image/Cookies-And-Cream-Ice-Cream.webp"
                 }
             ]
         },
 
         {
-            title: "🍰 Cakes & Desserts",
+            title: "Cakes & Desserts",
             items: [
                 {
                     name: "Chocolate Cake",
                     price: 180,
-                    image: "/images/chocolate-cake.jpg"
+                    image: "src/assets/image/Chocolate-Cake-with-Cream-Filling-3-1-1.webp"
                 },
                 {
                     name: "Red Velvet Cake",
                     price: 200,
-                    image: "/images/red-velvet.jpg"
+                    image: "src/assets/image/14REDVELVET-superJumbo-v4.jpg"
                 },
                 {
                     name: "Cheesecake",
                     price: 220,
-                    image: "/images/cheesecake.jpg"
+                    image: "src/assets/image/cheesecake-recipe-6.jpg"
                 },
                 {
                     name: "Choco Lava Cake",
                     price: 190,
-                    image: "/images/choco-lava-cake.jpg"
+                    image: "src/assets/image/Chocolate-Lava-Cake.webp"
                 }
             ]
         },
 
         {
-            title: "🍗 Korean Delights",
+            title: "Korean Delights",
             items: [
                 {
                     name: "Korean Fried Chicken",
                     price: 320,
-                    image: "/images/korean-fried-chicken.jpg"
+                    image: "src/assets/image/k friedchick.jpg"
                 },
                 {
                     name: "Tteokbokki",
                     price: 280,
-                    image: "/images/tteokbokki.jpg"
+                    image: "src/assets/image/Tteokbokki.jpg"
                 },
                 {
                     name: "Korean Noodles",
                     price: 260,
-                    image: "/images/korean-noodles.jpg"
+                    image: "src/assets/image/Korean Spicy Noodles.webp"
                 },
                 {
                     name: "Kimchi Fried Rice",
                     price: 280,
-                    image: "/images/kimchi-fried-rice.jpg"
+                    image: "src/assets/image/🍳 Kimchi Fried Rice.jpg"
                 }
             ]
         },
 
         {
-            title: "🥢 Chinese Favorites",
+            title: "Chinese Favorites",
             items: [
                 {
                     name: "Chicken Fried Rice",
                     price: 250,
-                    image: "/images/chicken-fried-rice.jpg"
+                    image: "src/assets/image/chickenfriedrice2.jpg"
                 },
                 {
                     name: "Schezwan Noodles",
                     price: 240,
-                    image: "/images/schezwan-noodles.jpg"
+                    image: "src/assets/image/scezwannoodles.webp"
                 },
                 {
                     name: "Chilli Chicken",
-                    price: 300,
-                    image: "/images/chilli-chicken.jpg"
+                    price: 200,
+                    image: "src/assets/image/chillichicken.jpg"
                 },
                 {
                     name: "Veg Manchurian",
                     price: 220,
-                    image: "/images/veg-manchurian.jpg"
+                    image: "src/assets/image/vegmanchurian.avif"
                 }
             ]
         }
 
     ];
 
-
-    // ADD TO CART
     const addToCart = (item) => {
 
         const existingItem = cart.find(
@@ -251,8 +249,6 @@ function Menu() {
         }
     };
 
-
-    // INCREASE QUANTITY
     const increaseQuantity = (name) => {
 
         setCart(
@@ -268,8 +264,6 @@ function Menu() {
 
     };
 
-
-    // DECREASE QUANTITY
     const decreaseQuantity = (name) => {
 
         setCart(
@@ -287,8 +281,6 @@ function Menu() {
 
     };
 
-
-    // REMOVE ITEM
     const removeItem = (name) => {
 
         setCart(
@@ -297,8 +289,6 @@ function Menu() {
 
     };
 
-
-    // TOTAL PRICE
     const totalPrice = cart.reduce(
         (total, item) =>
             total + item.price * item.quantity,
@@ -313,8 +303,6 @@ function Menu() {
         0
     );
 
-
-    // ORDER NOW
     const orderNow = () => {
 
         if (cart.length === 0) {
@@ -325,7 +313,7 @@ function Menu() {
         }
 
         alert(
-            `Order placed successfully! 🎉\n\nTotal Amount: ₹${totalPrice}`
+            `Order placed successfully! \n\nTotal Amount: ₹${totalPrice}`
         );
 
         setCart([]);
@@ -338,27 +326,16 @@ function Menu() {
 
         <section className="menu-page">
 
-            {/* HEADER */}
-
             <div className="menu-header">
 
-                <h1>🌙 VS MOON CAFE</h1>
+                <h1>Our Menu</h1>
 
-                <h2>Our Menu</h2>
-
-                <p>
-                    Coffee • Dreams • Memories
-                </p>
-
-                <p>
+                <h3>
                     Explore our delicious collection of
                     premium beverages, desserts and food.
-                </p>
+                </h3>
 
             </div>
-
-
-            {/* OPEN CART BUTTON */}
 
             <div className="cart-button-container">
 
@@ -366,13 +343,10 @@ function Menu() {
                     className="open-cart-btn"
                     onClick={() => setShowCart(true)}
                 >
-                    🛒 Open Cart ({totalItems})
+                    Open Cart ({totalItems})
                 </button>
 
             </div>
-
-
-            {/* MENU CARDS */}
 
             <div className="menu-grid">
 
@@ -397,16 +371,11 @@ function Menu() {
                                     key={item.name}
                                 >
 
-                                    {/* IMAGE */}
-
                                     <img
                                         src={item.image}
                                         alt={item.name}
                                         className="menu-image"
                                     />
-
-
-                                    {/* DETAILS */}
 
                                     <div className="food-details">
 
@@ -424,7 +393,7 @@ function Menu() {
                                                 addToCart(item)
                                             }
                                         >
-                                            🛒 Add to Cart
+                                            Add to Cart
                                         </button>
 
                                     </div>
@@ -441,21 +410,16 @@ function Menu() {
 
             </div>
 
-
-            {/* CART POPUP */}
-
             {showCart && (
 
                 <div className="cart-overlay">
 
                     <div className="cart-box">
 
-                        {/* CART HEADER */}
-
                         <div className="cart-header">
 
                             <h2>
-                                🛒 Your Cart
+                                Your Cart
                             </h2>
 
                             <button
@@ -469,15 +433,12 @@ function Menu() {
 
                         </div>
 
-
-                        {/* EMPTY CART */}
-
                         {cart.length === 0 ? (
 
                             <div className="empty-cart">
 
                                 <h3>
-                                    🛒 Your cart is empty
+                                    Your cart is empty
                                 </h3>
 
                                 <p>
@@ -489,8 +450,6 @@ function Menu() {
                         ) : (
 
                             <>
-
-                                {/* CART ITEMS */}
 
                                 <div className="cart-items">
 
@@ -518,9 +477,6 @@ function Menu() {
                                                 </p>
 
                                             </div>
-
-
-                                            {/* QUANTITY */}
 
                                             <div className="quantity">
 
@@ -550,17 +506,11 @@ function Menu() {
 
                                             </div>
 
-
-                                            {/* ITEM TOTAL */}
-
                                             <strong>
                                                 ₹
                                                 {item.price *
                                                     item.quantity}
                                             </strong>
-
-
-                                            {/* REMOVE */}
 
                                             <button
                                                 className="remove-btn"
@@ -570,7 +520,7 @@ function Menu() {
                                                     )
                                                 }
                                             >
-                                                🗑
+                                                
                                             </button>
 
                                         </div>
@@ -578,9 +528,6 @@ function Menu() {
                                     ))}
 
                                 </div>
-
-
-                                {/* TOTAL */}
 
                                 <div className="cart-total">
 
@@ -590,14 +537,11 @@ function Menu() {
 
                                 </div>
 
-
-                                {/* ORDER NOW */}
-
                                 <button
                                     className="order-btn"
                                     onClick={orderNow}
                                 >
-                                    🍽️ Order Now
+                                    Order Now
                                 </button>
 
                             </>
@@ -610,13 +554,10 @@ function Menu() {
 
             )}
 
-
-            {/* FOOTER */}
-
             <div className="menu-footer">
 
                 <h2>
-                    ✨ Special Moments Deserve Special Food ✨
+                    Special Moments Deserve Special Food!
                 </h2>
 
                 <p>

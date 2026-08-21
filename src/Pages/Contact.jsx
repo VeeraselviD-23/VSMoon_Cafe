@@ -42,7 +42,7 @@ function Contact() {
 
       <h1>
         Contact VS Moon Cafe
-      </h1>
+      </h1><br/><br/>
 
 
       <div className="contact-container">
@@ -51,24 +51,28 @@ function Contact() {
         <div className="contact-info">
 
           <h2>
-            Get In Touch
+            Get In Touch!
           </h2>
 
           <p>
-            📍 Tulip Valley Road, Tamil Nadu
+            Tulip Valley Road, Tamil Nadu
           </p>
 
           <p>
-            📞 +91 98765 43210
+            +91 98765 43210
           </p>
 
           <p>
-            ✉ info@vsmooncafe.com
+            info@vsmooncafe.com
           </p>
 
           <p>
-            🕐 06:00 AM - 01:00 AM
+            06:00 AM - 01:00 AM
           </p>
+
+          <div className="pic">
+            <img src="src/assets/image/mooncontact.jpg"/>
+          </div>
 
         </div>
 

@@ -6,7 +6,7 @@ function Header() {
 
       <div className="logo">
         <img
-          src="/image/cafe logo.png"
+          src="src/assets/image/cafe logo.png"
           alt="VS Moon Cafe Logo"
         />
       </div>
@@ -20,7 +20,6 @@ function Header() {
         </p>
 
       </div>
-
       <hr />
 
       <nav className="navbar">

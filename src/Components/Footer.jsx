@@ -74,19 +74,19 @@ function Footer() {
           </h3>
 
           <p>
-            📍 Tulip Valley Road, Tamil Nadu
+            Tulip Valley Road, Tamil Nadu
           </p>
 
           <p>
-            📞 +91 98765 43210
+            +91 98765 43210
           </p>
 
           <p>
-            ✉ info@vsmooncafe.com
+            info@vsmooncafe.com
           </p>
 
           <p>
-            🕐 06:00 AM - 01:00 AM
+            06:00 AM - 01:00 AM
           </p>
 
         </div>

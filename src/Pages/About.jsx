@@ -2,8 +2,9 @@ function About() {
   return (
     <section className="page-section">
 
-      <h1>
+      <h1 className="data">
         About VS Moon Cafe
+        <br/><br/>
       </h1>
 
       <p>
@@ -24,14 +25,22 @@ function About() {
         delicious food, premium beverages and beautiful
         surroundings.
       </p>
+      <br/><br/>
 
+      <div className="good">
+      <img src="src/assets/image/MoonCafepicture.webp"/>
+      </div>
+      <br/>
+      <hr/>
 
+      <br/><br/>
+      
       <div className="cards">
 
         <div className="card">
 
           <h3>
-            🌙 Moon Inspired
+            Moon Inspired
           </h3>
 
           <p>
@@ -44,7 +53,7 @@ function About() {
         <div className="card">
 
           <h3>
-            ☕ Premium Coffee
+            Premium Coffee
           </h3>
 
           <p>
@@ -57,7 +66,7 @@ function About() {
         <div className="card">
 
           <h3>
-            🌷 Beautiful Garden
+            Beautiful Garden
           </h3>
 
           <p>

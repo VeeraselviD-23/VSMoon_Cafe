@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-
-      {/* HERO SECTION */}
-
       <section className="hero">
 
         <h1>
@@ -38,9 +35,6 @@ function Home() {
         </Link>
 
       </section>
-
-
-      {/* BOOTSTRAP CAROUSEL */}
 
       <div
         id="moonCafeSlider"
@@ -81,12 +75,10 @@ function Home() {
 
         <div className="carousel-inner">
 
-          {/* IMAGE 1 */}
-
           <div className="carousel-item active">
 
             <img
-              src="/image/vsmooncafe.png"
+              src="src/assets/image/vsmooncafe.png"
               className="d-block w-100 slider-img"
               alt="VS Moon Cafe"
             />
@@ -101,13 +93,10 @@ function Home() {
 
           </div>
 
-
-          {/* IMAGE 2 */}
-
           <div className="carousel-item">
 
             <img
-              src="/image/balcony.png"
+              src="src/assets/image/balcony.png"
               className="d-block w-100 slider-img"
               alt="Cafe Balcony"
             />
@@ -122,13 +111,10 @@ function Home() {
 
           </div>
 
-
-          {/* IMAGE 3 */}
-
           <div className="carousel-item">
 
             <img
-              src="/image/Dalton-Farms-tulip-rainbow-CR-CLIFF-BECKETT.jpeg"
+              src="src/assets/image/Dalton-Farms-tulip-rainbow-CR-CLIFF-BECKETT.jpeg"
               className="d-block w-100 slider-img"
               alt="Tulip Garden"
             />
@@ -143,13 +129,10 @@ function Home() {
 
           </div>
 
-
-          {/* IMAGE 4 */}
-
           <div className="carousel-item">
 
             <img
-              src="/image/mooncafe.morning.jpeg"
+              src="src/assets/image/mooncafe.morning.jpeg"
               className="d-block w-100 slider-img"
               alt="Moon Cafe Morning"
             />
@@ -165,7 +148,6 @@ function Home() {
           </div>
 
         </div>
-
 
         <button
           className="carousel-control-prev"
@@ -192,15 +174,11 @@ function Home() {
 
       </div>
 
-
-      {/* WELCOME */}
-
       <section>
 
         <h2>
           Welcome to Our Cafe
         </h2>
-
         <p className="home-content">
 
           VS Moon Cafe is a unique customized cafe where
@@ -214,9 +192,6 @@ function Home() {
 
       </section>
 
-
-      {/* WHY CHOOSE US */}
-
       <section>
 
         <h2>
@@ -229,7 +204,7 @@ function Home() {
           <div className="card">
 
             <h3>
-              🌙 Moon Theme
+              Moon Theme
             </h3>
 
             <p>
@@ -243,7 +218,7 @@ function Home() {
           <div className="card">
 
             <h3>
-              ☕ Signature Coffee
+              Signature Coffee
             </h3>
 
             <p>
@@ -257,7 +232,7 @@ function Home() {
           <div className="card">
 
             <h3>
-              🍨 Customized Desserts
+              Customized Desserts
             </h3>
 
             <p>
@@ -271,7 +246,7 @@ function Home() {
           <div className="card">
 
             <h3>
-              🍹 Fresh Drinks
+              Fresh Drinks
             </h3>
 
             <p>
@@ -284,9 +259,6 @@ function Home() {
         </div>
 
       </section>
-
-
-      {/* FINAL SECTION */}
 
       <section className="info-box">
 
